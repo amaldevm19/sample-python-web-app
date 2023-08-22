@@ -12,7 +12,7 @@ phases:
       - echo This always runs even if the update or install command fails
   build:
     commands:
-      - Entered build phase...
+      - echo Entered build phase...
       - echo Build started on `date`
       - pipenv run python -m unittest
     finally:
